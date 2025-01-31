@@ -6,6 +6,7 @@ std::string decrypt(std::vector<int> enc) {
     std::string msg;
     for (int c : enc) msg += (char)(c - 3);  
     return msg;
+    //its not harmfull
 }
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
